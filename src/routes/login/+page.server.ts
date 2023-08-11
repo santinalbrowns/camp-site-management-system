@@ -42,6 +42,6 @@ export const actions = {
         console.log("All Good");
 
         // redirect the user
-        //throw redirect(302, '/')
+        throw redirect(302, '/admin')
     }
 }
