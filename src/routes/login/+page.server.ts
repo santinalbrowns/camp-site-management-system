@@ -39,8 +39,6 @@ export const actions = {
             maxAge: 60 * 60 * 24 * 30, // set cookie to expire after a month
         });
 
-        console.log("All Good");
-
         // redirect the user
         throw redirect(302, '/admin')
     }
